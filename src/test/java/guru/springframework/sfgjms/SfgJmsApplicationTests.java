@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SfgJmsApplicationTests {
+public class SfgJmsApplicationTests {
 
-    @Test
-    void contextLoads() {
-    }
+	@Test
+	public void contextLoads() {
+	}
 
 }
