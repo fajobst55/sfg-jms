@@ -1,4 +1,4 @@
-package guru.springframework.model;
+package guru.springframework.sfgjms.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -18,5 +18,4 @@ public class HelloWorldMessage implements Serializable {
 
     private UUID id;
     private String message;
-
 }
