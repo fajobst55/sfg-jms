@@ -26,7 +26,7 @@ public class HelloSender {
     private final ObjectMapper objectMapper;
 
     @Scheduled(fixedRate = 2000)
-    public void sendMessage(){
+    public void sendMessage() {
 
         HelloWorldMessage message = HelloWorldMessage
                 .builder()
